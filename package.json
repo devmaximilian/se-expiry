@@ -18,7 +18,7 @@
     "javascript"
   ],
   "author": "devmaximilian <6c3b3361-7018-4629-b257-1317f2a0478b@mwtdev.se>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/devmaximilian/se-expiry/issues"
   },
