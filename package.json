@@ -1,0 +1,26 @@
+{
+  "name": "se-expiry",
+  "version": "0.1.0",
+  "description": "A simple wrapper to get the list of .se domains expiring soon.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmaximilian/se-expiry.git"
+  },
+  "keywords": [
+    "se",
+    "tld",
+    "expiry",
+    "wrapper",
+    "javascript"
+  ],
+  "author": "devmaximilian <6c3b3361-7018-4629-b257-1317f2a0478b@mwtdev.se>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devmaximilian/se-expiry/issues"
+  },
+  "homepage": "https://github.com/devmaximilian/se-expiry#readme"
+}
