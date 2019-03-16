@@ -3,18 +3,18 @@ class Domains {
     this.items = items;
   }
 
-  // Sort domains by expiry date (ascending)
-  byDate(a, b) {
-    return a.expiry - b.expiry;
+  // Sort domains by expires date (ascending)
+  _byDate(a, b) {
+    return a.expires - b.expires;
   }
 
   // Sort domains by domain name length (ascending)
-  byLength(a, b) {
+  _byLength(a, b) {
     return a.name.length - b.name.length;
   }
 
   // Internal sort interface
-  sort(by) {
+  _sort(by) {
     return new Promise((resolve, reject) => {
       try {
         this.items.sort(by);
@@ -29,11 +29,11 @@ class Domains {
   order(by = 'date') {
     switch (by) {
       case 'date':
-        return this.sort(this.byDate);
+        return this._sort(this._byDate);
       case 'length':
-        return this.sort(this.byLength);
+        return this._sort(this._byLength);
       default:
-        return this.sort(this.byDate);
+        return this.sort(this._byDate);
     }
   }
 }

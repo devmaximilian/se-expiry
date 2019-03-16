@@ -20,10 +20,7 @@ let fetch = (https = true) => {
           });
         }
       )
-      .on('error', error => {
-        // Reject on HTTP error
-        reject(error);
-      });
+      .on('error', reject);
   });
 };
 

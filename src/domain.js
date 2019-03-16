@@ -1,7 +1,7 @@
 class Domain {
-  constructor(name, expiry) {
+  constructor(name, expires) {
     this.name = name;
-    this.expiry = new Date(expiry);
+    this.expires = new Date(expires);
   }
 }
 
