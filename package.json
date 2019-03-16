@@ -1,6 +1,6 @@
 {
   "name": "se-expiry",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple wrapper to get the list of .se domains expiring soon.",
   "main": "src/index.js",
   "scripts": {
